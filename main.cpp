@@ -100,6 +100,6 @@ int main( int   argc, char *argv[] )
 // Object which containts relevant methods and attributes regarding system details
     SysInfo sys;
     //std::string s = writeToConsole(sys);
-    printMain(sys,procs);
+    printMain(sys,procs);   
     return 0;
 }

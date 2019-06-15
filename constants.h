@@ -1,3 +1,5 @@
+#ifndef CONSTANTS
+#define CONSTANTS
 #include <string>
 using namespace std;
 
@@ -38,4 +40,12 @@ public:
     static string versionPath(){
         return "version";
     }
+    static string osVersionPath(){
+        return "/etc/os-release";
+    }
+
+    static string threadsPath(){
+        return "sys/kernel/threads-max";
+    }
 };
+#endif
