@@ -172,7 +172,7 @@ string ProcessParser::printCpuStats(vector<string> values1, vector<string> value
 float ProcessParser::getSysRamPercent()
 {
     string line;
-    string name1 = "MemAvaliable:";
+    string name1 = "MemAvailable:";
     string name2 = "MemFree:";
     string name3 = "Buffers:";
 
